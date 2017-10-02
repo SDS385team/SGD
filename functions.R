@@ -17,3 +17,5 @@ gradll <- function(b, y, X, m, lambda) {
   penaly_part <- lambda * sign(b)
   ll_part + penaly_part
 }
+
+
